@@ -1,0 +1,212 @@
+ body{
+       margin:0;
+       padding:0;
+    } 
+    .user_details{
+        width:100%;
+        display: flex;
+    }
+    .amazon_logo{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        width: 15%;
+        background-color: #232f3e;
+     }
+     .icon {
+        margin: auto;
+     }
+
+     .IMG {
+     margin: auto;
+    margin-right: 46px;
+    padding-top: 5px;
+     }
+
+    .fa-align-justify{
+        margin: 7px 6px 13px 14px;
+        color: whitesmoke;
+    }
+    .amazon_searchbar{
+        width: 59%;
+        background-color: #232f3e;
+    }
+    .amazon_searchbar input[type=search] {
+        width: 90%;
+        border-radius: 4px;
+        margin-top: 12px;
+        font-size: 25px;
+        margin-left: -5px;
+    }
+    .amazon_searchbar_a{
+        text-decoration:none;
+        padding:9px 10px 5px 8px;
+        background-color: #f3f3f3;
+        line-height: 35px;
+        margin-left:9px;
+        font-size:18px;
+        font-family: "Amazon Ember",Arial,sans-serif;
+    }
+    .fa-search{
+        width: 7%;
+        font-size: 29px;
+        background-color: #febd69;
+        margin-left: -35px;
+        padding-bottom: 5px;
+        text-align: center;
+        border: none;
+        border-radius: 6px;
+    }
+    .amazon_userinfo {
+        width: 26%;
+        display: flex;
+        text-align: center;
+        margin: auto;
+        padding:5px;
+        color:whitesmoke;
+        margin-bottom: -10px;
+        text-transform: capitalize;
+        background-color: #232f3e
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
+        border:1px solid;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+    li {
+    float: left;
+    margin:-8px 12px;
+    padding-top:10px;
+    border:1px solid;
+    }
+    li span{
+        display:block;
+    }
+    .amazon_userinfo_la{
+        width:7%;
+        display:block;
+        margin:0px;
+    }
+    .material-icons{
+        margin-top:-1px;
+    }
+    .amazon_userinfo_login{
+        width:39%;
+        margin-top: 2px;
+    }
+    .amazon_userinfo_orders{
+        width:30%;
+    }
+    .amazon_userinfo_cart{
+        width:20%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: -2px;
+    }
+    .amazon_navbar{
+        width:100%;
+        display:flex;
+        /* border:1px solid red; */
+        background-color: #232f3e;
+        color:whitesmoke;
+    }
+    .amazon_deliver{
+        width:19%;
+        /* border:1px solid blue; */
+        display: flex;
+    }
+    .amazon_deliver_map{
+        width:11%;
+        padding-top: 10px;
+        margin-left:25px;
+    }
+    .amazon_deliver_address{
+        /* border:1px solid; */
+        width:55%;
+        padding-top:7px;
+    }
+    .amazon_nav_item{
+        width: 47%;
+        display: flex;
+        padding: 7px;
+        text-transform: capitalize;
+        margin-top: 15px;
+        margin-left: -29px;
+        justify-content: space-around;
+    }
+    .amazon_nav_item a{
+        text-decoration:none;
+        color: #ccc;
+        border: 1px solid transparent;
+    }
+    .amazon_nav_item a:hover {
+        border: 1px solid #ccc;
+    }
+        .amazon_nav_item a.active {
+        border: 1px solid #ccc;
+        }
+    .amazon_userinfo_text{
+        color: #ccc;
+    }
+    .amazon_nav_text{
+        width: 35%;
+        
+        display: flex;
+       
+        text-align: right;
+    }
+    .amazon_products{
+        margin-top: -4px;
+       /* border:2px solid; */
+       display:flex;
+    }
+    .amazon_products_item{
+        width:22%;
+        margin: 0px 20px;
+        /* border:1px solid red; */
+    }
+    .amazon_products_text{
+        width:80%;
+        margin-left:9px;
+        /* border:1px solid; */
+    }
+    .amazon_products_img{
+        width: 87%;
+        margin-top: -31px;
+        padding: 17px;
+        /* border:1px solid blue; */
+    }
+    .amazon_products_more{
+        /* border:1px solid green; */
+        margin-left:15px;
+        margin-bottom:-8px;
+    }
+    .amazon_products_ptext{
+        font-size: 14px;
+        margin-top: -4px;
+        color: #111;
+    }
+    .aside_content{
+        font-size: 22px;
+        margin: 14px 50px;
+    }
+    .sign_securely{
+        background-color: #f0c14b;
+        padding: 8px;
+        margin: 0px 29px;
+        text-align: center;
+    }
+    .aside_img{
+        margin: 40px 18px 0px;
+        width: 90%;
+    }
